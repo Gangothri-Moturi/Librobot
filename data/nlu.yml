@@ -1,0 +1,224 @@
+version: "3.0"
+
+nlu:
+
+- intent: search_book
+  examples: |
+    - Search for a book
+    - Find me a book
+    - Can you search for a book?
+    - I want to find a book
+
+
+- intent: library_hours
+  examples: |
+    - What are your hours?
+    - When are you open?
+    - What time do you close?
+    - What are the library hours?
+    - timings of Library hours
+    - Library Timings
+    - working hours 
+
+- intent: library_location
+  examples: |
+    - Where are you located?
+    - What's your address?
+    - How do I get to the library?
+    - location of library
+    - way to library
+    - library location
+
+- intent: books_available
+  examples: |
+    - What books are available now?
+    - books that are available
+    - currently available books
+    - please recommend some books
+
+- intent: books_recommendation_CSE
+  examples: |
+    - books on programming
+    - Computer Science books
+    - I want Cse books
+    - I want programming language books
+    - What are the books available for CSE?
+    - programming books
+    
+
+- intent: borrow_books
+  examples: |
+    - How can i borrow a book
+    - can i borrow a book
+    - can i borrow a multiple books at a time
+    - what's the time period of borrow books
+    - borrow a book
+    - i want to borrow a book
+    
+
+- intent: submit_books
+  examples: |
+    - when can i submit my book
+    - can i submit my book definitely
+    - any time limit to submit a book
+    - submit book
+    - return book to library
+    
+
+- intent: late_submission
+  examples: |
+    - what if i submit late?
+    - what if i submit book late?
+    - can i pay money for late submission?
+    - how much money i have to pay?
+    - how much money i have to pay for late submission
+    - any fine for late submission
+
+- intent: ebooks_available
+  examples: |
+    - any ebooks are available
+    - digital books
+    - virtual books
+
+- intent: library_wifi
+  examples: |
+    - wifi name
+    - is wifi available
+    - what is the wifi password
+    - wifi password
+
+- intent: new_books
+  examples: |
+    - new books
+    - any new books is added 
+    - any trending books available
+    - latest new technologies books
+    - newly arrived books
+    - latest books
+
+- intent: competitive_books
+  examples: |
+    - where can i find competitive books
+    - entrance exams books
+    - competitive books
+
+- intent: gate_books
+  examples: |
+    - gate books
+    - where can i find gate books
+    - is gate books are there in library
+
+- intent: upsc_books
+  examples: |
+    - upsc books
+    - upsc preparation books
+    - where can i find upsc books
+    - union public service commission books
+    - government exam preparation books
+    - civil services exam books
+    
+- intent: total_count
+  examples: |
+    - total books available in library
+    - how many books available in library?
+    - count of books
+
+- intent: chatbot_description
+  examples: |
+      - Who are you
+      - what about you
+      - what you do
+      - why you are being used
+
+- intent: creators_chatbot
+  examples: |
+    - who created you
+    - creators
+  
+
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey there
+    - Good morning
+    - Howdy
+    - welcome
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+    - Take care
+    - Farewell
+    - have a nice day
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so saad
+    - so sad
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Sure
+    - Absolutely
+    - Definitely
+    - Of course
+    - agreed
+
+- intent: deny
+  examples: |
+    - No
+    - Nope
+    - I don't think so
+    - Not really
+    - I disagree
+    - reject
+
+- intent: thanks
+  examples: |
+    - Thank you
+    - Thanks a lot
+    - I appreciate it
+    - Thank you so much
+    - Many thanks
+
+- intent: default
+  examples: |
+    - Can you repeat that?
+    - I didn't understand
+    - Please clarify
+    - What do you mean?
+    - I'm confused
+    - sorry 
